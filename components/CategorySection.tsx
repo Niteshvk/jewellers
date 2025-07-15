@@ -13,7 +13,6 @@ export default function CategorySection() {
             Browse our collections by category to find the perfect piece for any occasion.
           </p>
         </div>
-        {/* Card  */}
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {categories.map((category) => (
